@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600&family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* header */
+header{
+    background: linear-gradient(41deg, rgb(194, 172, 202) 0%, rgb(49, 144, 173)00%);
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+header .container { 
+    display: flex;
+    justify-content: space-between;
+}
+header .container i,
+header .container h2{
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+}
+/* content */
+.content{
+    direction: rtl;
+    text-align: center;
+}
+.content .title h3{
+ padding: 30px;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content .title p {
+    font-size: 20px;
+    padding: 20px;
+    border-bottom: 1px solid;
+    margin-bottom: 20px;
+}
+.content img{
+    width: 120px;
+}
+.content .inputs{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: radial-gradient(circle, rgb(133, 140, 179) 0%, rgb(27, 197, 240) 100%);
+    align-items: center;
+    box-shadow: rgb(247, 248, 248) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+ .content .inputs input{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+ }
+ .content .inputs i{
+    color: white;
+ }
+ footer{
+    direction: rtl;
+ }
+ footer .title{
+    margin-top: 20px;
+    padding: 30px;
+    font-size: 20px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+ }
+ footer .title2,
+ .title3{
+    text-align: center;
+    margin-top: 25px;
+ }
+ footer .title2 div,
+ .title3 div{
+    padding: 10px;
+ }
+.end-footer{
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(41deg, rgb(194, 172, 202) 0%, rgb(49, 144, 173)00%);
+color: white;
+}
+@media screen and (max-width: 500px){
+  input{
+    width: 100%;
+    font-size: 15px;
+  }
+}
+
+
+
